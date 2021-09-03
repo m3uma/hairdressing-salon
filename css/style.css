@@ -7,6 +7,9 @@ html {
 }
 
 body {
-    font-family: 'Hina Mincho', serif;
-    background: #EDC7B7;
+    font-family: 'Anton', sans-serif;
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 }
