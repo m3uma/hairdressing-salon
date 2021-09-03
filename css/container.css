@@ -1,0 +1,19 @@
+.container {
+    max-width: 900px;
+    padding: 20px 0 40px;
+    margin: 0 auto;
+    background: #EEE2DC;
+}
+
+.container__header{
+    color: #AC3B61;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header__img{
+    height: 60px;
+}
