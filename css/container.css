@@ -9,17 +9,6 @@
     grid-template-columns: auto auto;
 }
 
-@media(max-width: 1000px) {
-    .section{
-        grid-template-columns: 1fr;
-    }
-
-    .header__h1{
-        text-align: center;
-    }
-
-}
-
 .container__header{
     color: #AC3B61;
     margin: 0;
@@ -30,6 +19,7 @@
     font-family: 'Archivo Black', sans-serif;
     letter-spacing: -2px;
     font-size: 80px;
+    text-shadow: 2px 2px white;
 }
 
 .header__i{
@@ -37,4 +27,30 @@
     font-size: 100px;
     text-decoration: none;
     letter-spacing: 4px;
+}
+
+@media(max-width: 1200px) {
+    .header__h1{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .header__i{
+        font-size: 80px;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .section{
+        grid-template-columns: 1fr;
+    }
+    .header__h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .header__i{
+        font-size: 60px;
+    }
 }

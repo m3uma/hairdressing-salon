@@ -15,7 +15,13 @@
     padding: 100px 40px;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1200px) {
+    .navigation{
+        margin: 0;
+    }
+}
+
+@media(max-width: 767px) {
     .navigation{
         width: 100%;
         margin: 0;
