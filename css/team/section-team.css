@@ -2,18 +2,16 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    align-content: center;
-    
+    align-content: center;   
 }
 
 .section__director{
     grid-row: 1/3;
-    grid-column: 3/5;
+    grid-column-start: 3;
 }
 
 .section__instructor{
     grid-row: 2/3;
-    align-self: center;
 }
 
 .section__stylist{
@@ -24,6 +22,11 @@
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.section__figcaption{
+    text-align: center;
+    text-shadow: 1px 1px white;
 }
 
 @media(max-width: 1000px) {
