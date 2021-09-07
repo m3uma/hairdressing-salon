@@ -46,7 +46,7 @@
     resize: none;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
     .form{
         width: 400px;
     }

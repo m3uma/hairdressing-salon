@@ -52,7 +52,7 @@
     text-shadow: 1px 1px white;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
     .section__team{
         grid-template-columns: 1fr 1fr;
         margin-top: 20px;
