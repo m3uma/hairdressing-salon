@@ -1,0 +1,18 @@
+.section__offer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+@media(max-width: 767px) {
+    .section__img{
+        display: none;
+    }
+
+    .section__offer{
+        background: url("/img/offer__470.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1200px;
+    }
+}
