@@ -2,12 +2,15 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    align-content: center;   
+    align-content: center; 
+    text-align: center;
 }
 
 .section__director{
     grid-row: 1/3;
-    grid-column-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-end: 1;
 }
 
 .section__instructor{
@@ -16,6 +19,26 @@
 
 .section__stylist{
     grid-row: 3/3;
+}
+
+#seung{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#alba{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#emilly{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#cillian{
+    grid-column-start: 4;
+    grid-column-end: 6;
 }
 
 .section__img{
@@ -35,7 +58,13 @@
         margin-top: 20px;
     }
 
-    .section__director, .section__instructor, .section__stylist{
+    .section__director{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-end: 1;
+    }
+    
+    #seung, #alba, #emilly, #cillian, .section__instructor, .section__stylist{
         grid-row: auto;
         grid-column: auto;
         justify-self: center;
