@@ -1,0 +1,16 @@
+.footer{
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    bottom: 20px;
+    text-shadow: 1px 1px white;
+}
+
+@media(max-width: 767px) {
+    .footer{
+        left: 0;
+        bottom: 0;
+        position: relative;
+        margin: 20px auto;
+    }
+}
