@@ -10,7 +10,7 @@
     }
 
     .section__offer{
-        background: url("/img/offer__470.png");
+        background: url("img/offer__470.png");
         background-repeat: no-repeat;
         background-position: center;
         height: 1200px;
@@ -19,7 +19,7 @@
 
 @media(max-width: 480px) {
     .section__offer{
-        background: url("/img/offer__270.png");
+        background: url("img/offer__270.png");
         background-repeat: no-repeat;
         background-position: center;
         height: 550px;
