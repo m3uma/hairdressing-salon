@@ -1,5 +1,5 @@
 .form{
-    margin: 20px auto;
+    margin: 100px auto;
     display: block;
     background: rgba(186,178,181,0.5);
     width: 500px;
@@ -55,6 +55,7 @@
 @media(max-width: 767px) {
     .form{
         width: 300px;
+        margin: 50px auto;
     }
 
     .form__label{
