@@ -47,6 +47,10 @@
     height: 150px;
 }
 
+.section__img:hover{
+    box-shadow: 0 0 20px white;
+}
+
 .section__figcaption{
     text-align: center;
     text-shadow: 1px 1px white;
