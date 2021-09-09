@@ -12,6 +12,7 @@
     right: 0;
     top: 0;
     bottom: 0;
+    box-shadow: 0 0 5px white;
 }
 
 .form__label{
