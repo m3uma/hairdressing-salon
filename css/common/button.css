@@ -7,20 +7,16 @@
     padding: 30px;
     border-radius: 5px;
     opacity: 0.95;
-}
-
-.button__a{
     color: #BAB2B5;
-    text-decoration: none;
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
 }
 
-.button__a:hover{
+.button:hover{
     color: #EEE2DC;
 }
 
-.button__a:active{
+.button:active{
     filter: brightness(110%);
 }
 
