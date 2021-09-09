@@ -64,3 +64,10 @@
         margin: 0;
     }
 }
+
+@media(max-width: 300px) {
+    .form{
+        width: 270px;
+        margin: 50px auto;
+    }
+}
