@@ -1,6 +1,6 @@
 .form{
     margin: 100px auto;
-    display: block;
+    display: none;
     background: rgba(186,178,181,0.5);
     width: 500px;
     border-radius: 5px;
