@@ -1,13 +1,10 @@
-footer{
-    position: relative;
-}
-
 .footer{
     position: absolute;
     text-align: center;
     left: 40%;
     bottom: 20px;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px 1px white;
+    opacity: 0.95;
 }
 
 @media(max-width: 767px) {
