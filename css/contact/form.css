@@ -1,28 +1,26 @@
 .form{
     margin: 100px auto;
-    display: block;
     background: rgba(186,178,181,0.5);
     width: 500px;
     border-radius: 5px;
     padding: 20px;
-    text-align: center;
     box-shadow: 0 0 5px white;
 }
 
 .form__label{
-    margin:10px;
-}
-
-.form__label--modified{
-    margin-left: 29px;
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: right;
 }
 
 .form__input{
     border-radius: 5px;
     padding: 5px;
     margin:5px;
-    width: 200px;
-    max-width: 200px;
+    width: 100%;
+    max-width: 300px;
 }
 
 .form__button{
@@ -33,6 +31,7 @@
     opacity: 0.95;
     color: #EEE2DC;
     font-family: 'Anton', sans-serif;
+    width:100%;
     letter-spacing: 2px;
     margin-top: 30px;
 }
@@ -50,6 +49,12 @@
 @media(max-width: 1024px) {
     .form{
         width: 400px;
+        text-align: center;
+    }
+
+    .form__label{
+        margin: 0;
+        text-align: center;
     }
 }
 
@@ -57,11 +62,6 @@
     .form{
         width: 300px;
         margin: 50px auto;
-    }
-
-    .form__label{
-        display: block;
-        margin: 0;
     }
 }
 
