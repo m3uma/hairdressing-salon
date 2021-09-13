@@ -38,12 +38,12 @@
         <button type="button" class="button">make an appointment</button>
         <form class="form">
             <button type="button"  class="form__button form__button--close">X</button><br/>
-            <label class="form__label">Name:</label><input type="text" class="form__input" placeholder="Enter your full name" /><br/>
-            <label class="form__label">Phone:</label><input type="phone" class="form__input" placeholder="Enter your phone number" /><br/>
-            <label class="form__label">E-mail:</label><input type="email" class="form__input" placeholder="Enter your e-mail address" /><br/>
-            <label class="form__label">Date:</label><input type="date" class="form__input" placeholder="Choose the date" /><br/>
+            <label class="form__label">Name:</label><input type="text" class="form__input" placeholder="Enter your full name" required /><br/>
+            <label class="form__label">Phone:</label><input type="phone" class="form__input" placeholder="Enter your phone number" required /><br/>
+            <label class="form__label">E-mail:</label><input type="email" class="form__input" placeholder="Enter your e-mail address" required /><br/>
+            <label class="form__label">Date:</label><input type="date" class="form__input" placeholder="Choose the date" required /><br/>
             <label class="form__label">Service:</label>
-            <select class="select form__input">
+            <select class="select form__input" required>
                 <option value="" selected disabled>Choose a service</option>
                 <optgroup label="Short Hair">
                     <option value="haircut">Haircut</option>
