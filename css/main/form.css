@@ -92,6 +92,10 @@
     .form__button--close{
         margin: 0 230px;
     }
+
+    .select{
+        margin: 5px;
+    }
 }
 
 @media(max-width: 300px) {
