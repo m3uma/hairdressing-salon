@@ -4,6 +4,12 @@
     position: relative;
 }
 
+@media(min-height: 800px) {
+    .section__button{
+        margin-top: 200px;
+    }
+}
+
 @media(min-height: 1000px) {
     .section__button{
         margin-top: 500px;
