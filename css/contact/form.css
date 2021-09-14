@@ -21,6 +21,8 @@
     margin:5px;
     width: 100%;
     max-width: 300px;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
 }
 
 .form__button{
