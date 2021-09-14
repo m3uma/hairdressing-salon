@@ -55,6 +55,12 @@
     width: 30px;
 }
 
+.select{
+    vertical-align: top;
+    max-height: 100px;
+    margin: 2px;
+}
+
 .form__textarea{
     vertical-align: top;
     height: 100px;
