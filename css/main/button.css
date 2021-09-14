@@ -1,7 +1,23 @@
+.section__button{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+@media(min-height: 1000px) {
+    .section__button{
+        margin-top: 500px;
+    }
+}
+
+@media(min-height: 1300px) {
+    .section__button{
+        margin-top: 800px;
+    }
+}
+
 .button{
     background: #123C69;
-    display: block;
-    margin: 100px auto;
     text-transform: uppercase;
     font-size: 30px;
     padding: 30px;
